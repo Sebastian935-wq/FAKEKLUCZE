@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "anarchia_visual_keys",
+  "version": "${version}",
+  "name": "Anarchia Visual Keys",
+  "description": "Client-side visual key generator and crate opening simulator for Minecraft 1.21.4.",
+  "authors": [
+    "AnarchiaCreator"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.anarchia.visualkeys.AnarchiaVisualKeysClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
